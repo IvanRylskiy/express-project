@@ -49,8 +49,7 @@ const createCost = (req, res, next) => {
     id: shortid.generate(),
     title,
 		description,
-		value,
-    completed: false
+		value
   };
 
   try {
