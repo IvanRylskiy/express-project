@@ -1,19 +1,4 @@
 {
-  "tasks": [
-    {
-      "id": "aRbwqVBQ",
-      "title": "new fs",
-      "completed": false
-    },
-    {
-      "id": "22rGufKN",
-      "title": "new fs",
-      "completed": false
-    },
-    {
-      "id": "Npz2sbRu",
-      "title": "new fs",
-      "completed": false
-    }
-  ]
+  "costs": [],
+  "accounts": []
 }
