@@ -32,10 +32,11 @@ const createCost = (req, res, next) => {
     type: 'object',
     properties: {
       title: { type: 'string' },
-			description: { type: 'string' },
+      description: { type: 'string' },
+      category: {type: 'string'},
 			value: { type: 'string' }
     },
-    required: ['title', 'description', 'value'],
+    required: ['title', 'description', 'category', 'value'],
     additionalProperties: false
   };
 
@@ -44,11 +45,12 @@ const createCost = (req, res, next) => {
     throw new Error('INVALID_JSON_OR_API_FORMAT');
   }
 
-  const { title, description, value } = req.body;
+  const { title, description, category, value } = req.body;
   const cost = {
     id: shortid.generate(),
     title,
-		description,
+    description,
+    category,
 		value
   };
 

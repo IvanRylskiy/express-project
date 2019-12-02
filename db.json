@@ -4,7 +4,8 @@
       "id": "zhSnzChC",
       "title": "Сходил в магазин",
       "description": "Хлеб, яйца, колбаса",
-      "value": "320"
+      "value": "320",
+      "category": "Продуктовые магазины"
     }
   ],
   "accounts": []
