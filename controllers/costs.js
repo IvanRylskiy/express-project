@@ -12,6 +12,38 @@ const getCosts = (req, res, next) => {
   res.json({ status: 'OK', data: costs });
 };
 
+const getTodayCosts = (req, res, next) => {
+  const dateToday = new Date().toLocaleDateString();
+  let costs = [];
+  try {
+  costs = db
+    .get('costs')
+    .filter({date: dateToday})
+    .value();
+  } catch (error) {
+    throw new Error(error);
+  }
+  res.json({ status: 'OK', data: costs });
+};
+
+const getMonthCosts = (req, res, next) => {
+  const dateToday = new Date().toLocaleDateString();
+  let year = dateToday.split('-')[0];
+  let month = dateToday.split('-')[1];
+  let monthToday = new RegExp (year + '-' + month + '-.');
+  let costs = [];
+
+  try {
+    costs = db
+      .get('costs')
+      .filter(({date}) => date.match(monthToday))
+      .value();
+    } catch (error) {
+      throw new Error(error);
+    }
+    res.json({ status: 'OK', data: costs });
+};
+
 const getCost = (req, res, next) => {
   const { id } = req.params;
 
@@ -94,6 +126,8 @@ const deleteCost = (req, res, next) => {
 
 module.exports = {
   getCosts,
+  getTodayCosts,
+  getMonthCosts,
   getCost,
   createCost,
   editCost,

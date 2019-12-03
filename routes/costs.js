@@ -7,6 +7,12 @@ const costsController = require('../controllers/costs');
 // GET /costs
 router.get('/', costsController.getCosts);
 
+// GET /costs/today
+router.get('/today', costsController.getTodayCosts);
+
+// GET /costs/month
+router.get('/month', costsController.getMonthCosts);
+
 // GET /costs/:id
 router.get('/:id', costsController.getCost);
 

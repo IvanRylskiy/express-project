@@ -1,4 +1,45 @@
 {
-  "costs": [],
+  "costs": [
+    {
+      "id": "fkah_yCW",
+      "title": "Сходил в магазин",
+      "description": "Хлеб, яйца, колбаса",
+      "category": "Продукты",
+      "value": "322",
+      "date": "2019-12-3"
+    },
+    {
+      "id": "USwekmBN",
+      "title": "Сходил в магазин",
+      "description": "Хлеб, яйца, колбаса",
+      "category": "Продукты",
+      "value": "322",
+      "date": "2019-12-2"
+    },
+    {
+      "id": "pkWzfghW",
+      "title": "Сходил в магазин еще",
+      "description": "Хлеб, яйца, колбаса",
+      "category": "Продукты",
+      "value": "322",
+      "date": "2019-12-3"
+    },
+    {
+      "id": "hHWxQpaM",
+      "title": "Сходил в магазин ноябрь",
+      "description": "Хлеб, яйца, колбаса",
+      "category": "Продукты",
+      "value": "322",
+      "date": "2019-11-3"
+    },
+    {
+      "id": "9L1e6x_h",
+      "title": "Сходил в магазин 10 dec",
+      "description": "Хлеб, яйца, колбаса",
+      "category": "Продукты",
+      "value": "322",
+      "date": "2019-12-10"
+    }
+  ],
   "accounts": []
 }
