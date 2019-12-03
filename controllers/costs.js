@@ -29,8 +29,6 @@ const getCost = (req, res, next) => {
 
 const createCost = (req, res, next) => {
   const date = new Date().toLocaleDateString();
-  const year = date.split('-')[0];
-  const month = date.split('-')[1];
   const costSchema = {
     type: 'object',
     properties: {
@@ -60,8 +58,6 @@ const createCost = (req, res, next) => {
 
   try {
     db.get('costs')
-      .get(`${year}`)
-      .get(`${month}`)
       .push(cost)
       .write();
   } catch (error) {
