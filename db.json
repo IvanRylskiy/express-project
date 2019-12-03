@@ -1,12 +1,21 @@
 {
   "costs": [
     {
-      "id": "zhSnzChC",
+      "id": "-elIe6FS",
       "title": "Сходил в магазин",
       "description": "Хлеб, яйца, колбаса",
-      "value": "320",
-      "category": "Продуктовые магазины"
+      "category": "Продукты",
+      "value": "322",
+      "date": "2019-12-3"
     }
   ],
-  "accounts": []
+  "accounts": [
+    {
+      "id": "74ItqCGI",
+      "title": "account title",
+      "description": "account desc",
+      "value": "5000",
+      "date": "2019-12-3"
+    }
+  ]
 }

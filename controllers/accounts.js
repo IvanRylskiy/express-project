@@ -28,6 +28,7 @@ const getAccount = (req, res, next) => {
 };
 
 const createAccount = (req, res, next) => {
+  const date = new Date().toLocaleDateString();
   const accountSchema = {
     type: 'object',
     properties: {
@@ -49,7 +50,8 @@ const createAccount = (req, res, next) => {
     id: shortid.generate(),
     title,
     description,
-    value
+    value,
+    date: date
   };
 
   try {
