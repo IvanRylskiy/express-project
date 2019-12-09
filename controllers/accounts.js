@@ -28,15 +28,13 @@ const getAccount = (req, res, next) => {
 };
 
 const createAccount = (req, res, next) => {
-  const date = new Date().toLocaleDateString();
   const accountSchema = {
     type: 'object',
     properties: {
-      title: { type: 'string' },
-      description: { type: 'string' },
+      comment: { type: 'string' },
       value: { type: 'string' }
     },
-    required: ['title', 'description', 'value'],
+    required: ['comment', 'value'],
     additionalProperties: false
   };
 
@@ -45,13 +43,11 @@ const createAccount = (req, res, next) => {
     throw new Error('INVALID_JSON_OR_API_FORMAT');
   }
 
-  const { title, description, value } = req.body;
+  const { comment, value } = req.body;
   const account = {
     id: shortid.generate(),
-    title,
-    description,
-    value,
-    date: date
+    comment,
+    value
   };
 
   try {
