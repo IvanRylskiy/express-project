@@ -2,44 +2,71 @@
   "costs": [
     {
       "id": "fkah_yCW",
-      "title": "Сходил в магазин",
-      "description": "Хлеб, яйца, колбаса",
       "category": "Продукты",
+      "comment": "test",
       "value": "322",
       "date": "2019-12-3"
     },
     {
       "id": "USwekmBN",
-      "title": "Сходил в магазин",
-      "description": "Хлеб, яйца, колбаса",
-      "category": "Продукты",
+      "category": "Еда вне дома",
+      "comment": "test",
       "value": "322",
       "date": "2019-12-2"
     },
     {
       "id": "pkWzfghW",
-      "title": "Сходил в магазин еще",
-      "description": "Хлеб, яйца, колбаса",
-      "category": "Продукты",
+      "category": "Транспорт",
+      "comment": "test",
       "value": "322",
       "date": "2019-12-3"
     },
     {
       "id": "hHWxQpaM",
-      "title": "Сходил в магазин ноябрь",
-      "description": "Хлеб, яйца, колбаса",
-      "category": "Продукты",
+      "category": "Покупки",
+      "comment": "test",
       "value": "322",
       "date": "2019-11-3"
     },
     {
       "id": "9L1e6x_h",
-      "title": "Сходил в магазин 10 dec",
-      "description": "Хлеб, яйца, колбаса",
-      "category": "Продукты",
+      "category": "Дом",
+      "comment": "test",
+      "value": "322",
+      "date": "2019-12-10"
+    },
+    {
+      "id": "9L1e6x_H",
+      "category": "Развлечения",
+      "comment": "test",
+      "value": "322",
+      "date": "2019-12-10"
+    },
+    {
+      "id": "9L1e6X_h",
+      "category": "Услуги",
+      "comment": "test",
+      "value": "322",
+      "date": "2019-12-10"
+    },
+    {
+      "id": "9L1e6X_H",
+      "category": "Другое",
+      "comment": "test",
       "value": "322",
       "date": "2019-12-10"
     }
   ],
-  "accounts": []
+  "accounts": [
+    {
+      "id": "fkah_yCw",
+      "comment": "test",
+      "value": "322"
+    },
+    {
+      "id": "Fkah_yCw",
+      "comment": "test2",
+      "value": "322"
+    }
+  ]
 }
