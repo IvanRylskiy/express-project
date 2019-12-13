@@ -5,28 +5,28 @@
       "category": "Продукты",
       "comment": "test",
       "value": "322",
-      "date": "2019-12-3"
+      "date": "2019-12-03"
     },
     {
       "id": "USwekmBN",
       "category": "Еда вне дома",
       "comment": "test",
       "value": "322",
-      "date": "2019-12-2"
+      "date": "2019-12-02"
     },
     {
       "id": "pkWzfghW",
       "category": "Транспорт",
       "comment": "test",
       "value": "322",
-      "date": "2019-12-3"
+      "date": "2019-12-03"
     },
     {
       "id": "hHWxQpaM",
       "category": "Покупки",
       "comment": "test",
       "value": "322",
-      "date": "2019-11-3"
+      "date": "2019-11-03"
     },
     {
       "id": "9L1e6x_h",
@@ -60,12 +60,13 @@
   "accounts": [
     {
       "id": "fkah_yCw",
-      "comment": "test",
-      "value": "322"
+      "comment": "Keke",
+      "value": "322",
+      "name": "123"
     },
     {
       "id": "Fkah_yCw",
-      "comment": "test2",
+      "comment": "Keke",
       "value": "322"
     }
   ]

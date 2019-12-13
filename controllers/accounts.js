@@ -75,7 +75,9 @@ const editAccount = (req, res, next) => {
 
   db.write();
 
-  res.json({ status: 'OK', data: editedAccount });
+  const accs = db.get('accounts')
+
+  res.json({ status: 'OK', data: accs });
 };
 
 const deleteAccount = (req, res, next) => {
