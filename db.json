@@ -15,25 +15,25 @@
       "date": "2019-12-14"
     },
     {
-      "id": "vdj97NQO",
-      "category": "Еда вне дома",
-      "comment": "Поел в столовой",
-      "value": "128",
-      "date": "2019-12-13"
-    },
-    {
-      "id": "PxZedwB-",
-      "category": "Транспорт",
-      "comment": "Заправил машину",
-      "value": "500",
-      "date": "2019-12-06"
-    },
-    {
       "id": "9zUWBE9u",
       "category": "Еда вне дома",
       "comment": "Поел в столовой",
       "value": "352",
       "date": "2019-12-15"
+    },
+    {
+      "id": "TJf0LAez",
+      "category": "Транспорт",
+      "comment": "Заправил машину",
+      "value": "513",
+      "date": "2019-12-17"
+    },
+    {
+      "id": "KxoEulS2",
+      "category": "Еда вне дома",
+      "comment": "Поел в БК",
+      "value": "423",
+      "date": "2019-12-17"
     }
   ],
   "accounts": [
