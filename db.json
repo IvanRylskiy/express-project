@@ -1,46 +1,51 @@
 {
   "costs": [
     {
-      "id": "9hq5bX7B",
+      "id": "kJf3yi9-",
       "category": "Продукты",
       "comment": "Купил продуктов",
       "value": "1013.75",
       "date": "2019-12-15"
     },
     {
-      "id": "0UOdmrGw",
-      "category": "Транспорт",
-      "comment": "Заправил машину",
-      "value": "322",
-      "date": "2019-12-14"
-    },
-    {
-      "id": "9zUWBE9u",
+      "id": "YPnmzmXR",
       "category": "Еда вне дома",
       "comment": "Поел в столовой",
       "value": "352",
       "date": "2019-12-15"
     },
     {
-      "id": "TJf0LAez",
+      "id": "OfJ4EFtR",
       "category": "Транспорт",
       "comment": "Заправил машину",
       "value": "513",
       "date": "2019-12-17"
     },
     {
-      "id": "KxoEulS2",
+      "id": "8JNnzG10",
       "category": "Еда вне дома",
       "comment": "Поел в БК",
       "value": "423",
       "date": "2019-12-17"
+    },
+    {
+      "id": "VuXvTTWS",
+      "category": "Транспорт",
+      "comment": "Заправил машину",
+      "value": "322",
+      "date": "2019-12-14"
     }
   ],
   "accounts": [
     {
-      "id": "ZdJ3J-qv",
+      "id": "5Ix3MSJ1",
       "comment": "Зарплата",
       "value": "40000"
+    },
+    {
+      "id": "I-9wX0Px",
+      "comment": "Премия",
+      "value": "20000"
     }
   ]
 }
