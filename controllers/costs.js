@@ -12,21 +12,6 @@ const getCosts = (req, res, next) => {
   res.json({ status: 'OK', data: costs });
 };
 
-const getCost = (req, res, next) => {
-  const { id } = req.params;
-
-  const cost = db
-    .get('costs')
-    .find({ id })
-    .value();
-
-  if (!cost) {
-    throw new Error('COST_NOT_FOUND');
-  }
-
-  res.json({ status: 'OK', data: cost });
-};
-
 const createCost = (req, res, next) => {
   const costSchema = {
     type: 'object',
@@ -92,7 +77,6 @@ const deleteCost = (req, res, next) => {
 
 module.exports = {
   getCosts,
-  getCost,
   createCost,
   editCost,
   deleteCost

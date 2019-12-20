@@ -7,9 +7,6 @@ const costsController = require('../controllers/costs');
 // GET /costs
 router.get('/', costsController.getCosts);
 
-// GET /costs/:id
-router.get('/:id', costsController.getCost);
-
 // POST /costs
 router.post('/', costsController.createCost);
 

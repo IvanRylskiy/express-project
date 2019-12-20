@@ -12,21 +12,6 @@ const getAccounts = (req, res, next) => {
   res.json({ status: 'OK', data: accounts });
 };
 
-const getAccount = (req, res, next) => {
-  const { id } = req.params;
-
-  const account = db
-    .get('accounts')
-    .find({ id })
-    .value();
-
-  if (!account) {
-    throw new Error('ACCOUNT_NOT_FOUND');
-  }
-
-  res.json({ status: 'OK', data: account });
-};
-
 const createAccount = (req, res, next) => {
   const accountSchema = {
     type: 'object',
@@ -88,7 +73,6 @@ const deleteAccount = (req, res, next) => {
 
 module.exports = {
   getAccounts,
-  getAccount,
   createAccount,
   editAccount,
   deleteAccount
