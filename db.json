@@ -1,4 +1,37 @@
 {
-  "costs": [],
-  "accounts": []
+  "costs": [
+    {
+      "id": "h_4NVrBI",
+      "category": "Транспорт",
+      "comment": "qwe",
+      "value": "123",
+      "date": "2019-12-11"
+    },
+    {
+      "id": "ZPHkobRI",
+      "category": "Транспорт",
+      "comment": "123",
+      "value": "123",
+      "date": "2000-02-12"
+    },
+    {
+      "id": "OcJLCHSR",
+      "category": "Еда вне дома",
+      "comment": "qw",
+      "value": "322",
+      "date": "2019-12-11"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "SEgPU5n3",
+      "comment": "qwe",
+      "value": "123"
+    },
+    {
+      "id": "77H9sg0Z",
+      "comment": "wwq",
+      "value": "1232"
+    }
+  ]
 }
